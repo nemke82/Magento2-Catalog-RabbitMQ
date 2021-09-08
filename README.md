@@ -14,7 +14,7 @@ Edit the composer.json file and add the following section to specify:
         "magento-force": "override",
         "patches": {
             "magento/module-catalog": {
-                "Catalog-RabbitMQ: product_action_attribute.update and product_action_attribute.website.update conversion to amqp": "https://raw.githubusercontent.com/nemke82/Magento2-Media-RabbitMQ/main/module-media-gallery-synchronization.patch"
+                "Catalog-RabbitMQ: product_action_attribute.update and product_action_attribute.website.update conversion to amqp": "https://raw.githubusercontent.com/nemke82/Magento2-Catalog-RabbitMQ/main/module-catalog.patch"
           }    
 ```
 Text is added in the "extra": { section, with following content:
